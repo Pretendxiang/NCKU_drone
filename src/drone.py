@@ -26,6 +26,7 @@ class Drone(object):
         self.mode = None
         self.local_pose, self.local_velo = [0, 0, 0], [0, 0, 0]
         self.gps_pose_lla = [0, 0, 0]
+        self.heading = 0
         self.roll, self.pitch, self.yaw = 0, 0, 0
         self.battery_volt, self.battery_perc = 0, 0
         self.home = [0, 0, 0]
